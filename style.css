@@ -1,18 +1,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
-.open-sans-font {
+body {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  margin: 0px;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 75px;
+  background-color: #FFF8F3;
+}
+
+.developer {
+  padding: 40px 0px;
+}
+
+/* Navber */
 .navbar {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between; 
-    align-items: center;
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  align-items: center;
+  padding-top: 20px;
+}
+
+.button{
+  color: white;
+  font-size: 20px;
+  background-color: #FD6E0A;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 30px;
+}
+
+.mary {
+  font-size: 45px; 
+  margin: auto;
+}
+
+.mary span {
+  color: #FD6E0A;
+}
+
+.background{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  background-image: url(image/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  background-position: right bottom;
+  margin: 0px;
+  justify-content: space-between; 
+}
+
+.icon{
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  gap: 50px; 
+  font-size: 20px;
+}
+/* About Me Section */
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me {
+  background-color: #FFF8F3;
+  border-radius: 20px;
+  text-align: center;
+  padding: 70px 100px 90px 100px;
+  margin: 90px 150px;
+  width: 720px;
+}
+
+.about-me p {
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info {
+  text-align: center;
+}
+
+.info p {
+  margin: auto;
+  color: #757575;
+}
+
+.info h3 {
+  margin: auto;
 }
