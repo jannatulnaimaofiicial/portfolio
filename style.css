@@ -156,9 +156,8 @@ section {
 
 .what-i-do-card {
   padding: 20px;
-  background-color: white;
-  border: 1px solid #FD6E0A;
   border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .what-i-do-card h2 {
@@ -219,6 +218,53 @@ section {
 .divider {
   border: 1px solid #D1D1D1;
 }
+
+/* Amazing Works Section */
+
+.amazing-section h1 {
+  text-align: center;
+  padding: 40px;
+}
+
+.amazing-image-section {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 90px 90px 90px 90px 90px 90px 90px;
+}
+
+.image-1 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.image-2 {
+  grid-row-start: 4;
+  grid-row-end: 8;
+}
+
+.image-3 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.image-4 {
+  grid-row-start: 5;
+  grid-row-end: 8;
+}
+
+.image-5 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.image-6 {
+  grid-row-start: 3;
+  grid-row-end: 8;
+}
+
+/* Footer */
+
 .footer{
 display: flex;justify-content: space-between; gap: 100px; margin:0, auto;
 
