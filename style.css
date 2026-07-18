@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  margin: 0px;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
 }
 
 header {
@@ -11,6 +18,7 @@ header {
   justify-content: center;
   gap: 75px;
   background-color: #FFF8F3;
+  margin-bottom: 45px;
 }
 
 .developer {
@@ -56,6 +64,26 @@ header {
   justify-content: space-between; 
 }
 
+.download-btn {
+  font-weight: 600;
+  font-size: 20px;
+  color: white; 
+  background-color: #FD6E0A;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.contact-btn {
+  font-size: 20px; 
+  font-weight: 600; 
+  color: #FD6E0A; 
+  background-color: white; 
+  border: 1px solid #FD6E0A; 
+  border-radius: 5px; 
+  padding: 15px;
+}
+
 .icon{
   display: flex; 
   flex-direction: row; 
@@ -63,25 +91,35 @@ header {
   gap: 50px; 
   font-size: 20px;
 }
+
+
 /* About Me Section */
 
 section {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding: 45px;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .about-me {
   background-color: #FFF8F3;
   border-radius: 20px;
-  text-align: center;
   padding: 70px 100px 90px 100px;
-  margin: 90px 150px;
-  width: 720px;
+  text-align: center;
 }
 
-.about-me p {
+.section-head {
+  color: black;
+  font-weight: bold;
+}
+
+.section-pera {
   color: #757575;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin: 25px 0px;
 }
 
 .infos {
@@ -101,4 +139,91 @@ section {
 
 .info h3 {
   margin: auto;
+}
+
+/* What I Do Section */
+
+.what-i-do-head {
+  font-size: 35px;
+  text-align: center;
+}
+
+.what-i-do-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.what-i-do-card {
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+}
+
+.what-i-do-card h2 {
+  font-size: medium;
+  margin: 25px 0px;
+}
+
+.what-i-do-card .section-pera {
+  font-size: 16px;
+}
+/* summary  */
+.summary{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  text-align: center;
+  align-items: center;
+}
+
+.summary-head {
+  font-size: 35px;
+}
+
+.summary-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: start;
+  gap: 40px;
+}
+
+.summary-body-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.summary-body-div h2 {
+  font-size: 30px;
+}
+
+.summary-card h3 {
+  font-size: 25px;
+}
+
+.summary-card h4 {
+  font-size: 20px; 
+  color: #757575; 
+  font-weight: 500; 
+  margin: 10px 0px;
+}
+
+.summary-card .section-pera {
+  font-size: 16px;
+}
+
+.divider {
+  border: 1px solid #D1D1D1;
+}
+.footer{
+display: flex;justify-content: space-between; gap: 100px; margin:0, auto;
+
+}
+
+.submit{
+  text-align: end;
 }
